@@ -1,0 +1,33 @@
+.navbar {
+  background: linear-gradient(rgba(249, 249, 249, 0.621),rgba(234, 236, 242, 0.543), rgba(135, 223, 237, 0.977));
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand:hover {
+    color: #000000;
+    filter: drop-shadow(0 0 0.75rem rgb(4, 230, 246));
+    text-shadow: 0 0 20px rgb(4, 211, 234), 0 0 40px rgb(3, 186, 242);
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand {
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(5, 5, 5, 0.904);
+  }
+   
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: rgb(22, 178, 239);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+  }

@@ -1,0 +1,144 @@
+/* Portfolio.css */
+
+#portfolio-info {
+    min-height: 40vh;
+    background: linear-gradient(to right, hsl(0, 0%, 100%), rgb(49, 62, 92));
+  }
+  
+  #portfolio1 {
+    background: linear-gradient(to right, hsl(0, 0%, 100%), rgb(49, 62, 92));
+  }
+  
+  .footer_section {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer_section .footer-info {
+    text-align: center;
+  }
+  
+  .footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .isotope .item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .isotope .item img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+  }
+  
+  .isotope .item:hover img {
+    transform: scale(1.5);
+  }
+  
+  .isotope .item:hover {
+    transform: scale(1);
+    top: 0;
+  }
+  
+  .container3 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  #air {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to right, hsl(0, 0%, 100%), rgb(49, 62, 92));
+    padding: 0;
+  }
+  
+  .air-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  
+  .wave1 use {
+    animation: move-forever1 10s linear infinite;
+    animation-delay: -2s;
+  }
+  
+  .wave2 use {
+    animation: move-forever2 8s linear infinite;
+    animation-delay: -2s;
+  }
+  
+  .wave3 use {
+    animation: move-forever3 6s linear infinite;
+    animation-delay: -2s;
+  }
+  
+  #about {
+    width: 50px;
+    border-radius: 10px;
+  }
+  
+  #about-info {
+    min-height: 50vh;
+  }
+  
+  #about #background {
+    padding: 100px;
+  }
+  
+  #carton {
+    background: linear-gradient(to right, hsl(295, 97%, 48%), rgb(252, 252, 252));
+    background-size: cover;
+  }
+  
+  #about-info {
+    background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694));
+  }
+  
+  #carton .box {
+    margin-top: -25px;
+    width: 300px;
+  }
+  
+  #carton .text {
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  #carton img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  #carton .icons {
+    font-size: 20px;
+  }
+  
+  #carton .icons:hover {
+    background: purple;
+    transition: all 0.4s ease;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  

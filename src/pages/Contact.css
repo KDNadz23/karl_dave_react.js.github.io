@@ -1,0 +1,50 @@
+#contact{
+    background: linear-gradient(to right, hsl(286, 91%, 51%), rgb(252, 252, 252));
+  }
+  #photos1 {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)); 
+    padding-top: 5px;
+    
+    margin-bottom: -5%;
+  }
+  #photos1 .container {
+    background: linear-gradient(to right, hsl(304, 98%, 50%), rgb(252, 252, 252));
+  }
+  #photos1 .container .card {
+    background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)); 
+  }
+  
+  #photos1 h3 {
+    color: rgb(255,255,255);
+    margin-left: 20%;
+    border-radius: 50px;
+  }
+  
+  #photos1 h4 {
+    color: rgb(62, 9, 252);
+  }
+  
+  #photos1 img {
+    width: 140px;
+    align-self: center;
+    transition: .5s ease-out;
+    border-radius: 25px;
+  }
+  
+  #photos1 img:hover {
+    width: 250px;
+    align-self: center;
+    transition: .5s;
+  }
+  
+  #footer1{
+    background: linear-gradient(to right, hsl(292, 97%, 47%), rgb(252, 252, 252));
+    
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    
+  }
+
+  
